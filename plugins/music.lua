@@ -21,11 +21,11 @@ do
 
     local root = htmlparser.parse(b)
     local tracks = root('.track')
-    local output = 'برای دانلود لینک دانلود رو به صورت \n/getmusic [URL]\n نویسید.\n'
+    local output = '.n/getmusic [URL]\n ..n'
 
     -- If no tracks found
     if #tracks < 1 then
-        return 'اهنگ مورد نظر پیدا نشد :( به زودی API تغییر میکند.'
+        return ' .'
     end
 
     for i, track in pairs(tracks) do
@@ -87,7 +87,3 @@ do
 }
 
 end
-    --https://github.com/amirhmz
-    --Telegram.me/AmirDark
-    --Made By @AmirDark 
-    --copyrights © XamarinTG 2016

@@ -1,12 +1,12 @@
 do
 
 function run(msg, matches)
-  return "سلام " .. matches[1]
+  return "salam " .. matches[1]
 end
 
 return {
     patterns = {
-    "^سلام کن به (.*)$"
+    "^salam be to (.*)$"
   }, 
   run = run 
 }

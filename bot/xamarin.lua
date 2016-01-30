@@ -234,23 +234,13 @@ function create_config( )
     "plugins",
     "all",
     },
-    sudo_users = {119626024,0,tonumber(our_id)},--Sudo users
+    sudo_users = {77750573},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[⚡ Xamarin Anti Spam Bot v1.4
+    about_text = [[⚡ team aqa mp3 top anti_spam v.5
     
-  📢 Channel : @XamarinCh
-  👤 Admin : @AmirDark
-  
-  🙏 Special Thanks :
-  
-        @mehrab_wj
-        @PokerFace_Dev
-        @MR_Flat
-        @ShahaWwB
-        @Sinaw1
-  
-  Checkout yon.ir/XamarinTG
+  📢 Channel : @aqamp3
+  👤 Admin : @mahdimp3
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -316,147 +306,93 @@ Only sudo users can run this command
 This command will send text to [group_id]
 
 
-**U can use both "/" and "!" 
-
-
-*Only admins and sudo can add bots in group
-
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
+id channel bot : @aqamp3
+id admin bot : @mahdimp3
+id bot : @aqa_mp3
 ]],
     help_text = [[
- 
-📝 ليست دستورات مدیریتی :
-
-🚫 حذف کردن کاربر
-!kick [یوزنیم/یوزر آی دی]
-
-🚫 بن کردن کاربر ( حذف برای همیشه )
-!ban [یوزنیم/یوزر آی دی]
-
-🚫 حذف بن کاربر ( آن بن )
-!unban [یوزر آی دی]
-
-🚫 حذف خودتان از گروه
+ #1 Remove 
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+!kick [username|id]
+You can also do it by reply
+!ban [ username|id]
+You can also do it by reply
+!unban [id]
+You can also do it by reply
 !kickme
-
-👥 دريافت ليست مديران گروه
-!modlist
-
-👥 افزودن مدير برای گروه
-!promote [یوزنیم]
-
-👥 حذف کردن یک مدير
-!demote [یوزنیم]
-
-📃 توضيحات گروه
-!about
-
-📜 قوانين گروه
-!rules
-
-🌅 انتخاب و قفل عکس گروه
-!setphoto
-
-🔖 انتخاب نام گروه
-!setname [نام مورد نظر]
-
-📜 انتخاب قوانين گروه
-!set rules <متن قوانین>
-
-📃 انتخاب توضيحات گروه
-!set about <متن مورد نظر>
-
-🔒 قفل اعضا ، نام گروه و ربات
-!lock [member|name|bots]
-
-🔓 باز کردن قفل اعضا ، نام گروه و ...
-!unlock [member|name|photo|bots]
-
-📥 دريافت یوزر آی دی گروه يا کاربر
-!id
-
-⚙ دریافت تنظیمات گروه 
-!settings
-
-📌 ساخت / تغيير لينک گروه
-!newlink
-
-📌 دريافت لينک گروه
-!link
-
-🛃 انتخاب مدير اصلی گروه
-!setowner [یوزر آی دی]
-
-🔢 تغيير حساسيت ضد اسپم
-!setflood [5-20]
-
-✅ دريافت ليست اعضا گروه
-!who
-
-✅ دريافت آمار در قالب متن
-!stats
-
-〽️ سيو کردن يک متن
-!save [value] <text>
-
-〽️ دريافت متن سيو شده
-!get [value]
-
-❌ حذف قوانين ، مديران ، اعضا و ...
-!clean [modlist|rules|about]
-
-♻️ دريافت يوزر آی دی یک کاربر
-!res [یوزنیم]
-
-🚸 دريافت گزارشات گروه
-!log
-
-🚸 دريافت ليست کاربران بن شده
+remove khod az group
 !banlist
-
-🌀 تکرار متن مورد نظر شما
-!echo [متن]
-
-🃏 ساخت متن نوشته
-!tex [متن]
-
-🃏 ساخت QR بارکد
-!qr [متن]
-
-⌨ انجام محاسبات ریاضی
-!calc 2+8
-
-🌐 جستجو در ویکی پديا انگلیسی
-!wiki [متن]
-
-🌐 جستجو در ویکی پديا فارسی
-!wikifa [متن]
-
-📢 ارتباط با پشتیبانی ربات
-!feedback [متن پیام]
-
-🔍 دریافت لینک گروه پشتیبانی
-!tosupport
-
-💬 توضيحات ضد اسپم
-!xamarin
-
-💬 راهنمای ربات (همین متن)
-!help
-
-🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
-
-⚠️  شما ميتوانيد از ! و / استفاده کنيد. 
-
-⚠️  تنها مديران ميتوانند ربات ادد کنند. 
-
-⚠️  تنها معاونان و مديران ميتوانند 
-جزييات مديريتی گروه را تغيير دهند.
-
-🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
+will return group ban list
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+#2 admin
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+!promote [username]
+add admin be group 
+!demote [username]
+remove admin az group
+!modlist 
+dedan admins group
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+#3 Changes
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+!setphoto
+Changes photo group
+!setname [name]
+Changes name group {nam gp}
+!lock [member|name|bots|leave]
+Locks [member|name|bots|leaveing] 
+!unlock [member|name|bots|leave]
+Unlocks [member|name|bots|leaving]
+!set rules <text>
+Set <text> as rules
+!set about <text>
+Set <text> as about
+!setflood [value]
+Set [value] as flood sensitivity
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+#4 admin group 
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+!setowner [id]
+Will set id as owner
+!owner
+returns group owner id
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+#5 link 
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+!link
+returns group link
+!newlink
+create/revoke your group link
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+#6 .............
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+!who
+Members list
+!about
+Group description
+!rules
+Group rules
+!id
+return group id or user id
+!settings
+Returns group settings
+!stats
+Simple message statistics
+!save [value] <text>
+Save <text> as [value]
+!get [value]
+Returns text of [value]
+!clean [modlist|rules|about]
+Will clear [modlist|rules|about] and set it to nil
+!res [username]
+returns user id
+"!res @username"
+!log
+will return group logs
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــ
+id channel bot : @aqamp3
+id admin bot : @mahdimp3
+id bot : @aqa_mp3
 
 ]]
   }

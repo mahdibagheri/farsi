@@ -1,12 +1,12 @@
 do
 
 function run(msg, matches)
-  return "تو زاده کیر مصنوعی ای " .. matches[1]
+  return "kir to kont" .. matches[1]
 end
 
 return {
     patterns = {
-    "^فحش بده به (.*)$"
+    "^kit to kont (.*)$"
   }, 
   run = run 
 }
